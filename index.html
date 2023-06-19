@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Swapping Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Number Swapping Game</h1>
+    <div id="game-container">
+        <table id="game-board">
+            <tbody>
+                <tr>
+                    <td class="cell" onclick="moveTile(0)"></td>
+                    <td class="cell" onclick="moveTile(1)"></td>
+                    <td class="cell" onclick="moveTile(2)"></td>
+                    <td class="cell" onclick="moveTile(3)"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onclick="moveTile(4)"></td>
+                    <td class="cell" onclick="moveTile(5)"></td>
+                    <td class="cell" onclick="moveTile(6)"></td>
+                    <td class="cell" onclick="moveTile(7)"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onclick="moveTile(8)"></td>
+                    <td class="cell" onclick="moveTile(9)"></td>
+                    <td class="cell" onclick="moveTile(10)"></td>
+                    <td class="cell" onclick="moveTile(11)"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onclick="moveTile(12)"></td>
+                    <td class="cell" onclick="moveTile(13)"></td>
+                    <td class="cell" onclick="moveTile(14)"></td>
+                    <td class="cell" onclick="moveTile(15)"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="restart-btn" onclick="restartGame()">Restart</button>
+        <p id="moves">Moves: <span id="move-count">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
